@@ -36,9 +36,13 @@ commitizen init cz-coinventional-changelog --save-dev --save-exact
 然后执行代码提交流程
 git add .
 
-commitizen cz
+方案一：
+commitizen cz       (有待实验)
 
 
+
+方案二：
+依然使用git的默认命令，commit的msg可能不符合要求，可以配合validate-commit-msg使用
 
 
 
