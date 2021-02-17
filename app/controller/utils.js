@@ -12,6 +12,7 @@ class UtilsController extends Controller {
       height: 40,
       noise: 3,
     })
+    console.log('验证码', captcha.text)
     this.ctx.session.captcha = captcha.text
     this.ctx.response.type = 'image/svg+xml'
     this.ctx.body = captcha.data
